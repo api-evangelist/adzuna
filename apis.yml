@@ -1,0 +1,32 @@
+aid: adzuna
+name: Adzuna
+description: "Job board aggregator"
+url: https://developer.adzuna.com/overview
+specificationVersion: '0.20'
+created: '2026-05-28'
+modified: '2026-05-28'
+x-source: public-apis/public-apis
+x-category: "Jobs"
+x-tier: 3
+x-tier-reason: bulk-registered-from-public-apis
+tags:
+  - Jobs
+  - Public APIs
+apis:
+  - name: Adzuna
+    description: "Job board aggregator"
+    humanURL: https://developer.adzuna.com/overview
+    baseURL: https://developer.adzuna.com/overview
+    tags:
+      - Jobs
+    properties:
+      - type: Documentation
+        url: https://developer.adzuna.com/overview
+common:
+  - type: Website
+    url: https://developer.adzuna.com/overview
+  - type: PublicAPIsListing
+    url: https://github.com/public-apis/public-apis
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
